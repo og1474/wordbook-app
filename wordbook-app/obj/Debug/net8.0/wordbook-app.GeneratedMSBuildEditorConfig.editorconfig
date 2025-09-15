@@ -26,16 +26,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/大学用/wordbook-app/wordbook-app/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/大学用/wordbook-app/wordbook-app/Pages/AddWord.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkV29yZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/大学用/wordbook-app/wordbook-app/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/大学用/wordbook-app/wordbook-app/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/大学用/wordbook-app/wordbook-app/Pages/Review.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmV2aWV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/大学用/wordbook-app/wordbook-app/Pages/WordList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV29yZExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/大学用/wordbook-app/wordbook-app/_Imports.razor]

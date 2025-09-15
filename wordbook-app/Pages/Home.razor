@@ -4,4 +4,15 @@
 
 <h1>Wordbook app</h1>
 
-Welcome to your new app.
+<button class="btn btn-primary" @onclick="@(() => NavigateTo("/AddWord"))">単語追加</button>
+<button class="btn btn-primary" @onclick="@(() => NavigateTo("/Review"))">復習</button>
+<button class="btn btn-primary" @onclick="@(() => NavigateTo("/WordList"))">単語一覧</button>
+
+@code {
+    [Inject] NavigationManager Nav {get; set;} = null!;
+
+    void NavigateTo(string url)
+    {
+        Nav.NavigateTo(url);
+    }
+}

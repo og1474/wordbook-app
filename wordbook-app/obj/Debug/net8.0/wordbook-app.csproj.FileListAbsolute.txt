@@ -1029,3 +1029,4 @@ C:\Users\大学用\wordbook-app\wordbook-app\obj\Debug\net8.0\wordbook-app.dll
 C:\Users\大学用\wordbook-app\wordbook-app\obj\Debug\net8.0\refint\wordbook-app.dll
 C:\Users\大学用\wordbook-app\wordbook-app\obj\Debug\net8.0\wordbook-app.pdb
 C:\Users\大学用\wordbook-app\wordbook-app\obj\Debug\net8.0\ref\wordbook-app.dll
+C:\Users\大学用\wordbook-app\wordbook-app\obj\Debug\net8.0\wordbook-app.sourcelink.json
