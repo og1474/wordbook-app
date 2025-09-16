@@ -1,18 +1,14 @@
 ﻿@page "/WordList"
+@using System.ComponentModel.DataAnnotations.Schema
+@inject WordService WordService
 
 <PageTitle>単語一覧</PageTitle>
 
 <h1>単語一覧</h1>
 
-<p role="status">Current count: @currentCount</p>
-
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
-
-@code {
-    private int currentCount = 0;
-
-    private void IncrementCount()
-    {
-        currentCount++;
-    }
+<ul>
+@foreach (var item in WordService.GetWords())
+{
+    <li>@item.Word - @item.Meaning</li>
 }
+</ul>

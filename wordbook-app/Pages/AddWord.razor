@@ -1,6 +1,24 @@
 @page "/AddWord"
+@inject WordService WordService
+@inject NavigationManager Nav
 
 <PageTitle>単語追加</PageTitle>
 
 <h1>単語追加</h1>
 
+<input @bind="word" placeholder="単語" />
+<input @bind="meaning" placeholder="意味" />
+<button class="btn btn-primary" @onclick="AddWords">追加</button>
+
+@code {
+    private string word;
+    private string meaning;
+
+    private void AddWords()
+    {
+        WordService.AddWord(word, meaning);
+        word = "";
+        meaning = "";
+        Nav.NavigateTo("/WordList"); //追加後に一覧ページに移動
+    }
+}
