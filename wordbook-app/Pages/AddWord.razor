@@ -11,8 +11,8 @@
 <button class="btn btn-primary" @onclick="AddWords">追加</button>
 
 @code {
-    private string word;
-    private string meaning;
+    private string word = string.Empty;
+    private string meaning = string.Empty;
 
     private void AddWords()
     {
