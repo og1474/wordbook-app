@@ -1,8 +1,58 @@
 ﻿@page "/Review"
+@inject WordService WordService
 @inject HttpClient Http
 
 <PageTitle>復習</PageTitle>
 
 <h1>復習</h1>
 
-<p>単語の復習を行います。</p>
+@if (currentWord != null)
+{
+    <p><b>単語：</b> @currentWord.Value.Word</p>
+    @if (showMeaning)
+    {
+        <p><b>意味：</b> @currentWord.Value.Meaning</p>
+        <button class="btn btn-primary" @onclick="ShowNextWord">次の単語へ</button>
+    }
+    else
+    {
+        <button class="btn btn-primary" @onclick="ShowMeaning">意味を表示</button>
+    }
+}
+else
+{
+    <p>すべての単語を復習しました。</p>
+}
+
+@code {
+    private int currentIndex = 0;
+    private (string Word, string Meaning)? currentWord;
+    private bool showMeaning = false;
+
+    protected override void OnInitialized()
+    {
+        if (WordService.GetWords().Count > 0)
+        {
+            currentWord = WordService.GetWords()[currentIndex];
+        }
+    }
+
+    private void ShowMeaning()
+    {
+        showMeaning = true;
+    }
+
+    private void ShowNextWord()
+    {
+        currentIndex++;
+        if (currentIndex < WordService.GetWords().Count)
+        {
+            currentWord = WordService.GetWords()[currentIndex];
+            showMeaning = false; //意味を非表示
+        }
+        else
+        {
+            currentWord = null; //単語がなくなった
+        }
+    }
+}
