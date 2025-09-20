@@ -6,9 +6,19 @@
 
 <h1>単語一覧</h1>
 
-<ul>
+<!-- <ul>
 @foreach (var item in WordService.GetWords())
 {
-    <li>@item.Word - @item.Meaning</li>
+    <li>@item.Word ： @item.Meaning</li>
 }
-</ul>
+</ul> -->
+
+<table class="table-words">
+    <tr><th>単語</th><th>意味</th></tr>
+    @foreach (var item in WordService.GetWords())
+    {
+        <tr>
+            <td>@item.Word</td><td>@item.Meaning</td>
+        </tr>
+    }
+</table>

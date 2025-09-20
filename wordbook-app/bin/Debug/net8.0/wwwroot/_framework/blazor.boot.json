@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "wordbook-app",
   "resources": {
-    "hash": "sha256-rOPjSK9Yj2dOMUqbDH17YjipqobjfRnsDheyi25UAR4=",
+    "hash": "sha256-h3hDL11ou7Fim5qEbNp1zDv7lZW98Xs1pr9tJ68tfxM=",
     "jsModuleNative": {
       "dotnet.native.8.0.20.sisobawz14.js": "sha256-D0bzod5lwwSzPR43JC8TTCcZKw+3jIHOk8CZFCRj5is="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-8qWtIcy8fV43tlcx4DxsF45RlkcfK6588vVoxF7be2E=",
       "netstandard.wasm": "sha256-eOgz2RiO4YaPLOMIGgVLNrcfsQhmLQJzR0N7Pu2teXc=",
       "System.Private.CoreLib.wasm": "sha256-F8T63QCIbMPXPQPqTcuyBAw+oVvZSrWjy88j7fiJQZ4=",
-      "wordbook-app.wasm": "sha256-Dv8xHkd/LJvWDgcERWWVY4O4Av1npHpf9gxBIUEOaN0="
+      "wordbook-app.wasm": "sha256-RN6YMZqu/r3RTRcijdchgo+cNuljvymWtAVl0uIE2bU="
     },
     "pdb": {
-      "wordbook-app.pdb": "sha256-7juUtoXnYGVzRR1koT7oS2B8xgUKS8sTjvPRfnBJjJ8="
+      "wordbook-app.pdb": "sha256-GP0sKjBTaV9r6hJll/DHm4mf1DSZuaICyekVsrdQ8uc="
     }
   },
   "cacheBootResources": true,

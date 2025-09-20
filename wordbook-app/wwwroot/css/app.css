@@ -6,6 +6,13 @@ h1:focus {
     outline: none;
 }
 
+table, .table-words {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: auto !important;
+    background-color: aliceblue;
+}
+
 a, .btn-link {
     color: #0071c1;
 }
