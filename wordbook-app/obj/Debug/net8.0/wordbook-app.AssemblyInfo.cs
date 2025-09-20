@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wordbook-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24f00bad9282a3566297b11fd8b40550080bbd23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41551fe096d981b334b1a437cbfdda97b79e59f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("wordbook-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wordbook-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

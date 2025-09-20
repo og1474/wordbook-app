@@ -6,11 +6,16 @@ h1:focus {
     outline: none;
 }
 
-table, .table-words {
+table {
     border-collapse: collapse;
     margin: 0 auto;
     width: auto !important;
     background-color: aliceblue;
+    
+}
+
+th {
+    color: red;
 }
 
 a, .btn-link {
