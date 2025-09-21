@@ -14,8 +14,9 @@ table {
     
 }
 
-th {
+th,td {
     color: red;
+    border-bottom: 1px solid #adadad;
 }
 
 a, .btn-link {
