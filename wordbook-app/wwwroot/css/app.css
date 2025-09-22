@@ -10,12 +10,11 @@ table {
     border-collapse: collapse;
     margin: 0 auto;
     width: auto !important;
-    background-color: aliceblue;
     
 }
 
 th,td {
-    color: red;
+    padding: 10px 10px;
     border-bottom: 1px solid #adadad;
 }
 
