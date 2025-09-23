@@ -1,4 +1,5 @@
 @page "/AddWord"
+@using System.Formats.Asn1
 @inject WordService WordService
 @inject NavigationManager Nav
 
@@ -8,17 +9,20 @@
 
 <input @bind="word" placeholder="単語" />
 <input @bind="meaning" placeholder="意味" />
+<input @bind="tag" placeholder="タグ" />
 <button class="btn btn-primary" @onclick="AddWords">追加</button>
 
 @code {
     private string word = string.Empty;
     private string meaning = string.Empty;
+    private string tag = string.Empty;
 
     private void AddWords()
     {
-        WordService.AddWord(word, meaning);
+        WordService.AddWord(word, meaning, tag);
         word = "";
         meaning = "";
+        tag = "";
         Nav.NavigateTo("/WordList"); //追加後に一覧ページに移動
     }
 }
